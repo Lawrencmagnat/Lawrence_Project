@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    background: #fff;
+    font-family: sans-serif;
+}
+
+.otilo{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.done{
+    display: flex;
+    flex-direction : column;
+    height: 800px;
+    width: 750px;
+    background: linear-gradient(rgb(223, 223, 237), 
+     rgb(200, 194, 182),
+     rgb(216, 213, 207));
+    box-shadow: 16px 17px 6px  rgb(150, 144, 144);
+    gap: 29px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;    
+}
+
+.careful{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    gap: 10px;
+}
+
+.careful p{
+    display: flex; 
+    background: none;
+}
+
+.careful p:nth-child(1){
+    color: red;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3.9px;
+    /* Thie margin below is necessary but its used to correct a mistake. */
+    /* margin-top: 5px; */
+
+}
+
+
+
+
+.careful p:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    margin-bottom: 25px;
+
+}
+
+.love{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: none;
+}
+
+.love h1{
+    display: flex;
+    background: none;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+
+
+.love p{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+
+.chim{
+    display: flex;
+    flex-direction : column;
+    border: none;
+    gap: 15px;
+    background: none;
+}
+
+
+.chim label{
+    /* background: linear-gradient(rgb(223, 223, 237), 
+    rgb(200, 194, 182),
+    rgb(216, 213, 207)); */
+    background: none;
+    border: none;
+    color: black;
+    font-size: 25px;
+    color: rgb(122, 114, 114);
+
+
+}
+
+.icon{
+    background:none;
+    display: flex;
+    position: relative;
+    
+}
+
+.icon i{
+    background:none;
+    position: absolute;
+    top: -99px;
+    left: 220px;
+    font-size: 21px;
+}
+
+.env{
+    display: flex;
+    background: none;
+    position: relative;
+   
+}
+
+.env i{
+    display: flex;
+    background: none;
+    position: absolute;
+    top: -74px;
+    right: 225px;
+    font-size: 25px;
+}
+
+.effort{
+    display: flex;
+    background: none;
+    position: relative;
+   
+}
+
+.effort i{
+    display: flex;
+    background: none;
+    position: absolute;
+    top: -74px;
+    right: 225px;
+    font-size: 25px;
+}
+
+
+
+.chim input{
+    width: 530px;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 55px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.chim input:hover{
+    background: rgba(154, 141, 141, 0.618);
+
+}
+
+.check{
+    display: flex;
+    margin-top: -58px;
+    gap: 200px;
+    background: none;
+    margin-bottom: 25px;
+}
+
+.checkmate{
+    display: flex;
+    background: none;
+    gap: 9px;
+}
+
+.checkmate input{
+    width: 49px;
+
+}
+
+.checkmate p{
+    background: none;
+    color: rgb(94, 94, 216);
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+
+.owu{
+    background: none;
+}
+
+.owu a{
+    background: none;
+    text-decoration: none;
+    color: rgb(81, 81, 220);
+    font-size: 17px;
+    font-weight: 100;
+}
+
+button{
+    display: flex;
+    width: 530px;
+    height: 65px;
+    align-items: center;
+    justify-content:center;
+    font-weight: 540;
+    font-size: 25px;
+    background: rgba(223, 141, 27, 0.758);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 0px 3px rgb(62, 61, 61);
+    transition: all .4s ease;
+}
+
+button:hover{
+    background: rgba(111, 91, 63, 0.758);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 10px 5px 3px rgb(43, 35, 35);
+    transition: all .4s ease;
+    color: #fff;
+}
+
+
+
+

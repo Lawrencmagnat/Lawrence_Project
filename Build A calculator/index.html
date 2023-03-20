@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence_Calculator</title>
+    <link rel="stylesheet" href="/Build A calculator/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="input">
+            <button onclick="clr()">C</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="calculate('**')">**</button>
+            <button onclick="calculate('/')">/</button>
+            <button onclick="calculate(7)">7</button>
+            <button onclick="calculate(8)">8</button>
+            <button onclick="calculate(9)">9</button>
+            <button onclick="calculate('*')">*</button>
+            <button onclick="calculate(4)">4</button>
+            <button onclick="calculate(5)">5</button>
+            <button onclick="calculate(6)">6</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate(1)">1</button>
+            <button onclick="calculate(2)">2</button>
+            <button onclick="calculate(3)">3</button>
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate('.')">.</button>
+            <button onclick="calculate(0)">0</button>
+            <button onclick="result()" class="equal">=</button>
+            <button onclick="shwHis()">His</button>
+
+            <!-- Praticing amination -->
+            <button id="calc-btn">🤯</button>
+
+        </div>
+        <div class="ping">
+            <p>LawrenceZOE👷‍♂️🏄‍♂️_<span class="input"></span>_</p>
+            <p class="maradona">&copy 2023 Lawrence - All Right Reserved.</p>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["~~Calculator~~","Project","~Working Harder~","~~💥🤎🕳~~","⭐⭐⭐","⚒"],
+            typeSpeed: 80,
+            backgroundSpeed: 80,
+            loop: true
+        });
+
+        const audio = new Audio('/Build A calculator/music/music.mp3');
+        audio.loop = true;
+        audio.play();
+
+
+    </script>
+
+</body>
+
+</html>

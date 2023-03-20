@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    background: #fff;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e2d3d3;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 76px);
+    border-radius: 39px;
+    padding: 26px;
+    box-shadow: 6px 7px 6px #fff 7px 5px 12px #e2d3d3;
+    
+   
+}
+
+input {
+    grid-column: span 4;
+    height: 80px;
+    width: 300px;
+    box-shadow: inset 6px 7px 6px #fff inset 7px 5px 6px rgb(0, 0, 0);
+    background: #e5e0e0;
+    border: none;
+    border-radius: 32px;
+    color: rgb(26, 25, 25);
+    text-align: end;
+    margin: 20px 0 45px 0;
+    padding: 10px;
+    font-size: 40px;
+  
+
+}
+
+
+button{
+    box-shadow: inset 6px 7px 16px #fff  7px 5px 6px rgb(0, 0, 0);
+    background: #d0cbcb;
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover{
+    background: lightgreen;
+    
+}
+
+
+button:nth-child(3),button:nth-child(2){
+    background: red;
+  
+}
+button:nth-child(3):hover,button:nth-child(2):hover{
+    background: rgb(243, 122, 122);
+}
+
+.equal{
+    width: 78px;
+    border-radius: 42px;
+    background-color: bisque;
+    
+}
+
+.ping{
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ping p{
+   background: bisque;
+   font-style: italic;
+   font-size: 25px;
+   color: rgb(76, 74, 74)
+   
+}
+
+.ping p span{
+    background: bisque;
+
+}
+
+/* Praticing Animation */
+
+.dancing {
+    animation: dance 1s infinite;
+  }
+  
+  @keyframes dance {
+    0% {
+      transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(80deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
