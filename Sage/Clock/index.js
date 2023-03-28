@@ -44,7 +44,7 @@ let displayTime = () => {
   display.innerHTML = timeString;
 }
 
-
+++
 
 // Call the displayTime function every second
 setInterval(displayTime, 1000);
